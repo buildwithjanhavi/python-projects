@@ -1,5 +1,5 @@
-a=int(input("enter a : "))
-b= int(input("enter b : "))
+a=int(input(int("enter a : ")))
+b= int(input(int("enter b : ")))
 operation=(input("Enter any operator(+,-,/,*): "))
 if(operation == "+"):
     print(a+b)
